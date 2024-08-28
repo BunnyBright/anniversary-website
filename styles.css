@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #FFDDC1;
+    background-color: #FFDDC1; /* Warm background color */
     font-family: Arial, sans-serif;
 }
 
@@ -31,6 +31,7 @@ body {
     color: #E91E63;
     margin: 0 10px;
     animation: bounce 1s infinite;
+    font-family: "Arial", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; /* Ensure the correct font is used */
 }
 
 @keyframes bounce {
@@ -41,3 +42,4 @@ body {
         transform: translateY(-20px);
     }
 }
+
